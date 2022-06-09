@@ -1,0 +1,24 @@
+.link {
+  text-decoration: none;
+  box-shadow: none;
+  color: black;
+}
+
+.home-link {
+  text-decoration: none;
+  box-shadow: none;
+  color: white;
+  padding: 20px;
+}
+
+.work {
+  color: #ffffff;
+}
+
+.searchbutton {
+  color: #ffffff;
+}
+
+.admin-icon {
+  top: 5%;
+}

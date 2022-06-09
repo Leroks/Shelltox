@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login {
+    width: 100vw;
+    height: 100vh;
+    background-color: #86a46b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .loginWrapper {
+    width: 70%;
+    height: 70%;
+    display: flex;
+  }
+  
+  .loginLeft,
+  .loginRight {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  
+  
+  .loginBox{
+    width: 620px;
+    height: 480px;
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(179, 179, 179, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1rem;
+    margin-left: 390px;
+    margin-top: 50px;
+  }
+
+    .linkedhu{
+        color: #4b0076;
+        font-size: 2.5rem;
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .slogan{
+        text-align: center;
+        font-size: 1.0rem;
+        margin-top: -15px;
+    }
+
+    .bi-eye-slash{
+      position: absolute;
+
+    }
+
+    .flexContainer {
+      display: flex;
+  }
+
+  .loginInput1{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+  .loginInput2{
+      height: 50px;
+      border-radius: 10px;
+      border: 1px solid gray;
+      font-size: 18px;
+      padding-left: 20px;
+      flex: 1;
+  }
+
+  .icon{
+    position:absolute;
+    top:53%;
+    left:91%;
+    cursor: pointer;
+  }
+  
+  .loginInput:focus{
+      outline: none;
+  }
+
+
+  .loginButton{
+      height: 50px;
+      border-radius: 20px;
+      border: none;
+      background-color: #4b0076;
+      color: white;
+      font-size: 20px;
+      font-weight: 500;
+      cursor: pointer;
+  }
+  
+  .loginForgot{
+      text-align: center;
+      color: #4b0076;
+  }
+  
+  .RegisterButton{
+    height: 50px;
+    width:250px;
+    margin-left: 10px;
+    background: #4b0076;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bolder;
+    cursor:pointer;
+  }
+
+  .lottie{
+    margin-bottom: 50px;
+  }
